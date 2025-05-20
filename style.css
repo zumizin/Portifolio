@@ -110,3 +110,9 @@ section h2::after {
     flex: 1;
     min-width: 300px;
 }
+
+/* Projetos*/
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
